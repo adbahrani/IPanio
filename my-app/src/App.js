@@ -8,6 +8,8 @@ import Login from "./components/login";
 import Singup from "./components/signup";
 import { AuthProvider } from "./contexts/AuthContext";
 import UpdateProfile from "./components/updateProfile";
+import PrivateRoute from "./PrivateRoute";
+import ForgotPassword from "./components/forgotPassword";
 
 function App() {
   return (
@@ -15,11 +17,11 @@ function App() {
       <div className="App">
         <NavBar />
         <AuthProvider>
-          <Route path="/" exact component={Main} />
+          <PrivateRoute path="/" exact component={Main} />
+          <PrivateRoute path="/update-profile" component={UpdateProfile} />
           <Route path="/login" exact component={Login} />
           <Route path="/signup" exact component={Singup} />
-          <Route path="/update-profile" exact component={UpdateProfile} />
-          {/* <Route path="/main" component={Main} /> */}
+          <Route path="/forgot-password" component={ForgotPassword} />
         </AuthProvider>
       </div>
     </Router>

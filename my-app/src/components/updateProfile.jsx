@@ -42,7 +42,10 @@ export default function UpdateProfile() {
   }
 
   return (
-    <Container className="p-1">
+    <Container
+      className="d-flex align-items-center justify-content-center"
+      sytle={{ minHeight: "100vh" }}
+    >
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Update Profile</h2>
