@@ -1,0 +1,32 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyC150DiBcwTv0jwV8-nCd3Io7yyPSVfh9E",
+    authDomain: "ipaino.firebaseapp.com",
+    projectId: "ipaino",
+    storageBucket: "ipaino.appspot.com",
+    messagingSenderId: "1097312698714",
+    appId: "1:1097312698714:web:53cdf0f3ffce7071923363",
+    measurementId: "G-MGF3D1FHJ0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+
+  REACT_APP_FIREBASE_KEY="AIzaSyC150DiBcwTv0jwV8-nCd3Io7yyPSVfh9E"
+  REACT_APP_FIREBASE_DOMAIN="ipaino.firebaseapp.com"
+  REACT_APP_FIREBASE_DATABASE="ipaino"
+  REACT_APP_FIREBASE_PROJECT_ID="ipaino"
+  REACT_APP_FIREBASE_STORAGE_BUCKET="ipaino.appspot.com"
+  REACT_APP_FIREBASE_SENDER_ID="1097312698714"
+
+
