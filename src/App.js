@@ -11,6 +11,10 @@ import UpdateProfile from "./components/updateProfile";
 import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from "./components/forgotPassword";
 
+import Progress from "./components/Pages/Progress";
+import Lessons from "./components/Pages/Lessons";
+import StartLesson from "./components/Pages/StartLesson";
+
 function App() {
   return (
     <Router>
@@ -19,6 +23,10 @@ function App() {
         <AuthProvider>
           <PrivateRoute path="/" exact component={Main} />
           <PrivateRoute path="/update-profile" component={UpdateProfile} />
+          <PrivateRoute path="/profile" component={Progress} />
+          <PrivateRoute path="/lessons" component={Lessons} />
+          <PrivateRoute path="/startLesson" component={StartLesson} />
+
           <Route path="/login" exact component={Login} />
           <Route path="/signup" exact component={Singup} />
           <Route path="/forgot-password" component={ForgotPassword} />

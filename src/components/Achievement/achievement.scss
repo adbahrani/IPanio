@@ -1,0 +1,14 @@
+.achievement {
+  .divider {
+    margin: 1rem 0;
+    width: 100%;
+    border-top: 1px solid black;
+  }
+  .progress-bar {
+    width: 95%;
+    span {
+      color: black;
+      // margin-right: -3rem;
+    }
+  }
+}

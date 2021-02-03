@@ -8,24 +8,15 @@ import Guide from "../components/Guide/guide";
 import Profile from "../components/profile";
 
 export default function Main() {
-  const [error, setError] = useState("");
+ 
   //const { currentUser, logout } = useAuth();
   const history = useHistory();
 
-  async function handleLogout() {
-    setError("");
-
-    try {
-      //  await logout();
-      history.push("/login");
-    } catch {
-      setError("Failed to log out");
-    }
-  }
+ 
 
   return (
     <Fragment>
-      {/* <Profile /> */}
+ 
 
       <div className="home">
         <Hero />

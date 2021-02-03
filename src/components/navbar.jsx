@@ -32,13 +32,13 @@ const NabBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Profile">
+              <a className="nav-link" href="/profile">
                 Profile
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/Lessons">
+              <a className="nav-link" href="/lessons">
                 Lessons
               </a>
             </li>

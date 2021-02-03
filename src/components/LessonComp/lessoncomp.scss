@@ -1,0 +1,31 @@
+.lesson-comp {
+  width: max-content;
+  .container {
+    background-color: yellow;
+    width: 100%;
+    border-radius: 2rem;
+    .heading {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      border-radius: 0 0 1rem 1rem;
+      .heading-no {
+        background-color: #fff;
+        position: absolute;
+        top: -2rem;
+        text-align: center;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+      }
+    }
+    ul {
+      padding: 1rem 4rem;
+      padding-left: 3rem;
+      border-radius: 1rem;
+      li {
+        line-height: 3.5;
+      }
+    }
+  }
+}
