@@ -10,7 +10,7 @@ const NabBar = () => {
           href="/"
           style={{ fontSize: "24px" }}
         >
-          IPanio
+          IPiano
         </a>
         <button
           className="navbar-toggler"
@@ -32,19 +32,19 @@ const NabBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/Profile">
                 Profile
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/Lessons">
                 Lessons
               </a>
             </li>
           </ul>
           <div>
-            <img src={Logo} width="50" height="50" alt="LOGO" />
+            <img src={Logo} width="100" height="50" alt="LOGO" />
           </div>
         </div>
       </nav>
