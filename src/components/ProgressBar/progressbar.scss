@@ -1,0 +1,25 @@
+.progress-bar {
+  position: relative;
+  width: 500px;
+  height: 3rem;
+  background-color: rgb(211, 209, 221);
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.progress-bar::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 10rem;
+  min-width: 2rrem;
+  max-width: calc(100% - 1rem);
+  background-color: #e79a1f;
+  background-color: #1fa1e796;
+  border-radius: 1rem;
+  padding: 1rem;
+}

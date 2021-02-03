@@ -5,7 +5,6 @@ import { useAuth } from "../contexts/AuthContext";
 import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import { Link, useHistory } from "react-router-dom";
 
-
 const Signup = () => {
   const emailRef = useRef();
   const passwordRef = useRef();
@@ -62,9 +61,13 @@ const Signup = () => {
                   required
                 />
               </Form.Group>
-              <Button disabled={loading} className="w-100" type="submit">
+              <button
+                disabled={loading}
+                className="btn-custom w-100"
+                type="submit"
+              >
                 Sign Up
-              </Button>
+              </button>
             </Form>
           </Card.Body>
         </Card>

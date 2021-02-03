@@ -1,0 +1,21 @@
+@import "../../assets/baseStyle/base";
+
+.footer {
+  background-color: black;
+  padding: 1.2rem 0;
+  // position: absolute;
+  // bottom: 0;
+  // width: 100%;
+  .flex {
+    justify-content: space-between;
+  }
+  .nav-items {
+    width: 20%;
+  }
+  .social {
+    width: 15%;
+  }
+  a {
+    color: white;
+  }
+}

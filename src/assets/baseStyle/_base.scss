@@ -1,0 +1,21 @@
+.container {
+  margin: auto;
+  width: 80%;
+}
+ul{
+  list-style: none;
+}
+.nav-link,a {
+  text-decoration: none;
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+    
+  }
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

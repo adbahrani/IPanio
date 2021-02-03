@@ -1,0 +1,22 @@
+@import "../../assets/baseStyle/base";
+
+.features {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #b4b4b4;
+  h2 {
+    margin: 2rem;
+  }
+  .feature-row {
+    display: flex;
+    justify-content: space-between;
+    .feature {
+      .icons {
+        color: #564374;
+      }
+      h4 {
+        line-height: 2;
+      }
+    }
+  }
+}

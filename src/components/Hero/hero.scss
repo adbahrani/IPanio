@@ -1,0 +1,50 @@
+@import "../../assets/baseStyle/base";
+
+.hero-main {
+  background-image: url(../../assets/images/sigmund-58JbgC0ADhY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+  background-color: #f3f3f3;
+  .hero {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // height: 50rem;
+    .content {
+      // width: 50%;
+
+      h1 {
+        font-size: 3rem;
+        color: #e61e5a;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+
+    .image-content {
+      animation: updown 4s ease infinite;
+      img {
+        width: 80%;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 2rem;
+      }
+    }
+  }
+  @keyframes updown {
+    0% {
+      transform: translateY(2%);
+    }
+
+    50% {
+      transform: translateY(10%);
+    }
+
+    100% {
+      transform: translateY(2%);
+    }
+  }
+}
