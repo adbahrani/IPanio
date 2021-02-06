@@ -1,11 +1,11 @@
 import React, { Fragment, useState } from "react";
 import { Card, Button, Alert, Container } from "react-bootstrap";
-import { useAuth } from "../contexts/AuthContext";
+import { useAuth } from "../../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
-import Hero from "../components/Hero/hero";
-import Features from "./Feautures/features";
-import Guide from "../components/Guide/guide";
-import Profile from "../components/profile";
+import Hero from "../Hero/hero";
+import Features from "../Feautures/features";
+import Guide from "../Guide/guide";
+import Profile from "../profile";
 
 export default function Main() {
  

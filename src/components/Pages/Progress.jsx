@@ -22,9 +22,9 @@ export default function Progress() {
             <ProfileCard />
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <Profile />
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );
