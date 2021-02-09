@@ -24,7 +24,7 @@ const Signup = () => {
       setError("");
       setLoading(true);
       await signup(emailRef.current.value, passwordRef.current.value);
-      // history.push("/");
+      history.push("/");
     } catch (err) {
       console.log(err);
       setError(err.message);
